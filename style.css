@@ -1,0 +1,236 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(61, 56, 56);
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+}
+
+main ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+    
+}
+
+main ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 20px ;
+    clear: both;
+    z-index: 5;
+}
+a:hover{
+    color:gold
+}
+
+.logo img {
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.second {
+    background-color: yellow;
+    overflow: hidden;
+    margin-top: 0%;
+    width: 100%;
+    height: 80vh;
+}
+.banner .img-banner {
+    height: 80vh;
+    width: 100%;
+    clip-path: circle(50% at 50% 50%);
+}
+form fieldset {
+    width: 30px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 250px;
+    margin-top: 10px;
+    padding-top: 20px;
+    left: -150px;
+    border-radius: 15px;
+    transition: 1s;
+    
+}
+form fieldset img {
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+form:hover fieldset{
+    left: 1px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -150px;
+    margin: auto;
+    height: 150px;
+    background-color: #fff;
+    
+
+}
+.image1,.image2,.image3,.image4 {
+    border: 2px solid gold;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.third  h1{
+    width: 60%;
+    height: 100px;
+    background:#ff0;
+    overflow: hidden;
+    color:#000;
+    text-align: center;
+    font-size: 50px;
+    transition: all 1s;
+    clip-path: circle(0% at 0% 0%);
+    position: absolute;
+    top: -5px;
+    left:-5px;
+
+}
+.third .image1:hover h1{
+    clip-path: circle(70% at 40%  0%);
+    position: absolute;
+    top: -40px;
+
+            
+}  
+.third .image2:hover h1 {
+    clip-path: circle(70% at 40% 0%);
+    position: absolute;
+    top: -40px;
+}
+.third .image3:hover h1 {
+    clip-path: circle(70% at 40% 0%);
+    position: absolute;
+    top: -40px;
+}
+.third .image4:hover h1 {
+    clip-path: circle(70% at 40% 0%);
+    position: absolute;
+    top: -40px;
+}
+h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0%;
+    width: 50%;
+    margin: auto;
+}
+hr{
+    width: 40%;
+    padding-bottom: 10px;
+    
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+.about-article {
+    padding-left: 10px;
+    
+    color: blue;
+}
+.about img {
+    height: 240px;
+}
+h4 {
+    font-size: 20px;
+}
+
+caption{
+            text-align: center;
+            font-size: 50px;
+}
+table {
+            text-align: center;
+            height: 250px;
+            padding-bottom: 10px;
+            width: 80%;
+            margin: auto;
+}
+
+table tr:nth-of-type(odd){
+            background-color: grey;
+}
+h2{
+            text-align: center;
+            font-size: 34px;
+}
+.four{
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            text-align: center;
+            height: 350px;
+            margin: auto;
+            justify-content: space-around;
+}
+figure p {
+            margin-top: 0%;
+}
+figure img {
+            height: 200px;
+}
+
+.five {
+            background-color: #ff0;
+            height: 400px;
+            margin: auto;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+
+    
+
+}
+.five img {
+            width: 45%;
+            height: 95%;
+            margin-top: 10px;
+            margin-left: 10px;
+}
+.five iframe{
+            width: 50%;
+            margin-top: 10px;
+            margin-right: 10px;
+}
+
+
+footer{
+            background-color: #000;
+            text-align: center;
+            color: #ff0;
+            height: 50px;
+            line-height: 30px;
+            font-size: 16px;
+            margin-top: 0%;
+            overflow: hidden;
+}
+
